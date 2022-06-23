@@ -1,0 +1,33 @@
+body{margin: 0;}
+div{
+    width: 200px;
+    height: 200px;
+} 
+#one{
+    border-color: blueviolet;
+    border-style: solid;
+    border-width: 5px;
+    background-color: brown;
+    box-sizing: border-box;
+}
+#two{
+   border-color: aqua;
+   border-style: dashed;
+   border-width: 5px; 
+   background-color: chartreuse;
+   border-left-width: 20px;
+   box-sizing: border-box;
+   
+    
+}
+#three{
+    background-color: crimson;
+    border: 10px solid gold;
+    border-bottom-style: dashed;
+    border-radius: 30px;
+    box-sizing: border-box;
+    margin: 10px 0 0 10px;
+} 
+button{
+    padding: 10px 500px 30px 60px;
+}

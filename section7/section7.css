@@ -1,0 +1,64 @@
+/* Universal selector */
+/* *{
+    color: rgb(173, 117, 145);
+} */
+/* This select everything and turns it to black */
+a{
+    text-decoration: none;
+}
+
+/* Element selector */
+button{
+    color: darkred;
+}
+/* This selects all the button element */
+
+
+/*The id selector  */
+#sign{
+    background-color: dimgray;
+    color: lightgray;
+}
+
+/* The class selector */
+.tag{
+    background-color: purple;
+    color: rgb(245, 239, 234);
+    font-size: 10px;
+}
+
+/* the  descendant selector */
+.post a{
+    color: yellow;
+}
+nav a{
+    color: red;
+}
+
+/* The attribute selector */
+section[class = post]{
+    background-color: green;
+}
+
+/* Pseudo classes */
+
+.post button:hover{
+    background-color: darkred;
+    color: lavenderblush;
+    font-weight: 900a;
+    font-size: 20px;
+}
+nav a:hover{
+    text-decoration: underline;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.post button:active{
+    background-color: teal;
+}
+
+/* Psuedo Elements*/
+h2::first-letter{
+    color: blue;
+}

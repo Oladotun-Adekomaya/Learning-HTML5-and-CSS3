@@ -1,0 +1,16 @@
+section{
+    background-color: rgb(204, 93, 19);
+    width: 500px;
+    height: 500px;
+}
+#transparency{
+    background-color: rgba(255, 105, 180, 0.473);
+    width: 50%;
+    height: 50%;
+}
+#opacity{
+    background-color: rgba(39, 187, 83);
+    width: 50%;
+    height: 50%;
+    opacity: .5;
+}
